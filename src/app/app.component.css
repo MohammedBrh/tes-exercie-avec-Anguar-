@@ -1,0 +1,73 @@
+p {
+  font-family: Lato;
+}
+*{
+  font-size: 13px;
+}
+.valide {
+  background-color: #5BE881;
+}
+.rejected {
+  background-color: #FF0000;
+}
+.on-validation {
+  background-color: #FDB64D;
+}
+.title{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #FF0000; */
+  place-content: space-around;
+  /* margin: 10px 0 0 0; */
+  /* padding: 3px 0; */
+  font-weight: bold;
+}
+.user{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #88ff00; */
+  border-top: 1px solid gray;
+  margin: 10px 0;
+  padding: 3px 0;
+  place-content: space-around;
+}
+span{
+  text-align: center;
+}
+.title span{
+  width: calc(100% /9); 
+}
+.title span:nth-child(2){
+  width: calc(100% /7); 
+}
+.user :last-child{
+  cursor: pointer;
+}
+.user :nth-child(3){
+  padding: 4px;
+  border-radius: 5px;
+}
+.user span:nth-child(2){
+  width: calc(100% /7); 
+}
+.user span{
+  width: calc(100% /8); 
+}
+.add_user{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.add_user span { 
+  background-color: #FDB64D;
+  color: gray;
+  height: 30px; 
+  width: 110px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
